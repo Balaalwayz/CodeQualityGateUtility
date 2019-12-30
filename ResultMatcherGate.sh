@@ -9,6 +9,8 @@ curl --request GET \
   --header 'cache-control: no-cache' \
   >> file.json
 
+echo `git --help`
+
 input="/tmp/test.txt"
 while IFS= read -r line
 do

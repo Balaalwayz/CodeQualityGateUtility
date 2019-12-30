@@ -1,0 +1,13 @@
+.idea
+roles/ansible-role-storage
+roles/ansible-role-sema
+inventories/vagrant/hosts.ini
+*.sublime-*
+.vagrant
+*.retry
+bin/
+share/
+lib/
+include/
+.Python
+init
