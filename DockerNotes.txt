@@ -1,0 +1,15 @@
+Problems of Orchestration:
+ High Availability
+ Reconciliation
+ 
+Scaling up/Tearing down
+
+scripting/ cli commands
+docker build -t test-app .
+docker run -i -t test-app /bin/ash
+docker image ls
+
+
+
+docker service create --detach=true --name nginx1 --publish 80:80  --mount source=/etc/hostname,target=/usr/share/nginx/html/index.html,type=bind,ro nginx:1.12
+pgqdxr41dpy8qwkn6qm7vke0q
